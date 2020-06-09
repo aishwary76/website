@@ -3,20 +3,3 @@
   padding-top: 55px;
   padding: 55px 0px 0px 0px;
 }
-.but1 {
-  background-color: #215e9f;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 9px;
-}
-.row .abc {
-  padding-left: 14px;
-  padding-top: -10px;
-}

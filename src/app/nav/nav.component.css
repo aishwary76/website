@@ -3,7 +3,8 @@
 }
 .nav-item a {
   text-align: left;
-  font: Regular 30px/34px SF Pro Display;
+  font-size: 20px;
+  font-weight: 600;
   letter-spacing: 0px;
   color: #000000;
   border-bottom: 3px solid white;
@@ -16,90 +17,4 @@
   color: #1788cb;
   border-bottom: 3px solid #1788cb;
   transition: 0.2s;
-}
-
-#main {
-  transition: 0.5s;
-  padding: 20px;
-  width: 70%;
-  display: inline-flex;
-  margin: auto;
-  padding-left: 17%;
-  line-height: 1;
-}
-#main img {
-  flex: 1;
-  margin-left: 40px;
-}
-#main p {
-  flex: 2;
-  margin-right: 40px;
-  padding-top: 130px;
-  font-weight: 550;
-  font-size: 80px;
-}
-#main .main-text h1 {
-  color: #1788cb;
-}
-
-@media (max-width: 568px) {
-  .bar .bar-nav a {
-    display: none;
-  }
-  .bar .bar-nav img {
-    margin-top: -100px;
-  }
-  #main p {
-    font-size: 50px;
-  }
-  .bar ul {
-    margin: 50px 0px 0px -10px;
-  }
-  .bar .open-slide {
-    margin-top: 30px;
-  }
-}
-@media (min-width: 568px) {
-  .open-slide {
-    display: none;
-  }
-}
-.scroller img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* partition */
-.dots {
-  background-color: #aadfd0;
-  margin-top: 30px;
-  width: 100%;
-}
-.dot {
-  height: 90px;
-  width: 90px;
-  background-color: #215e9f;
-  border-radius: 50%;
-  display: inline-block;
-}
-.circle {
-  padding-left: 65px;
-  padding-top: 10px;
-}
-.circle span{
-  padding-right: 20px;
-}
-.tips {
-  text-align: justify;
-  padding-left: 25px;
-}
-.blog {
-  padding: 58px;
-}
-
-
-.footer {
-  padding: 60px 20px 20px;
-  background-color: #2788cc;
-  color: white;
 }
