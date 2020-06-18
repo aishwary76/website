@@ -1,0 +1,67 @@
+:root {
+
+/* Colors: */
+--unnamed-color-000000: #000000;
+--unnamed-color-1788cb: #1788CB;
+--unnamed-color-707070: #707070;
+
+/* Font/text values */
+--unnamed-font-family-sf-pro-display: SF Pro Display;
+--unnamed-font-style-semibold: Semibold;
+--unnamed-font-style-bold: Bold;
+--unnamed-font-style-regular: Regular;
+--unnamed-font-style-medium: Medium;
+--unnamed-font-size-15: 15px;
+--unnamed-font-size-27: 27px;
+--unnamed-font-size-40: 40px;
+--unnamed-font-size-97: 97px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-18: 18px;
+--unnamed-line-spacing-30: 30px;
+--unnamed-line-spacing-48: 48px;
+--unnamed-line-spacing-126-0999984741211: 126.0999984741211px;
+--unnamed-text-transform-uppercase: uppercase;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-sf-pro-display);
+font-style: var(--unnamed-font-style-semibold);
+font-size: var(--unnamed-font-size-97);
+line-height: var(--unnamed-line-spacing-126-0999984741211);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-sf-pro-display);
+font-style: var(--unnamed-font-style-bold);
+font-size: var(--unnamed-font-size-27);
+line-height: var(--unnamed-line-spacing-30);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-1788cb);
+}
+.unnamed-character-style-3 {
+font-family: var(--unnamed-font-family-sf-pro-display);
+font-style: var(--unnamed-font-style-bold);
+font-size: var(--unnamed-font-size-40);
+line-height: var(--unnamed-line-spacing-48);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-1788cb);
+}
+.unnamed-character-style-4 {
+font-family: var(--unnamed-font-family-sf-pro-display);
+font-style: var(--unnamed-font-style-regular);
+font-size: var(--unnamed-font-size-15);
+line-height: var(--unnamed-line-spacing-30);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+}
+.unnamed-character-style-5 {
+font-family: var(--unnamed-font-family-sf-pro-display);
+font-style: var(--unnamed-font-style-medium);
+font-size: var(--unnamed-font-size-15);
+line-height: var(--unnamed-line-spacing-18);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+text-transform: var(--unnamed-text-transform-uppercase);
+}

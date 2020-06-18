@@ -1,5 +1,32 @@
-.footer {
-  padding: 60px 20px 20px;
+*{
+  margin-top: 20px;
+}.footer {
+  padding: 20px 20px 20px;
   background-color: #2788cc;
   color: white;
+}
+hr{
+  border: 1px solid white;
+}
+i {
+  font-size: 30px;
+}
+line i {
+  font-size: 10px;
+}
+/* .icons {
+  position: absolute;
+  right: 100px
+} */
+.icons a i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 12px;
+  color: white;
+}
+.icons a i:hover {
+  color: #2788cc;
+  background-color: white;
+  transition: 0.3s;
 }
