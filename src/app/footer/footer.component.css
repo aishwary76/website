@@ -14,10 +14,7 @@ i {
 line i {
   font-size: 10px;
 }
-/* .icons {
-  position: absolute;
-  right: 100px
-} */
+
 .icons a i {
   border: 1px solid white;
   border-radius: 50%;
