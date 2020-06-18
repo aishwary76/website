@@ -1,6 +1,9 @@
 * {
   font-family: arial;
 }
+.navbar{
+  background-color: white;
+}
 .nav-item a {
   text-align: left;
   font-size: 20px;
