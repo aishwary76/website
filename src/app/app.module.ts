@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { StrategyComponent } from './strategy/strategy.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StrategyComponent } from './strategy/strategy.component';
     FooterComponent,
     SkillsComponent,
     AboutComponent,
-    StrategyComponent
+    StrategyComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
