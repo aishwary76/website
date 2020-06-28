@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
-//   openSlider() {
-//     document.getElementById('side-menu').style.width = '250px';
-//     document.getElementById('main').style.marginLeft = '250px';
-//     console.log('working');
-// }
-// closeSlider() {
-//     document.getElementById('side-menu').style.width = '0px';
-//     document.getElementById('main').style.marginLeft = '0px';
-// }
+  // tslint:disable-next-line: use-lifecycle-interface
+  ngOnInit() {
+    AOS.init();
+  }
 }
