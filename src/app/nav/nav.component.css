@@ -1,13 +1,13 @@
 * {
   font-family: arial;
 }
-.navbar{
+.navbar {
   background-color: white;
 }
 .nav-item a {
   text-align: left;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0px;
   color: #000000;
   border-bottom: 3px solid white;
