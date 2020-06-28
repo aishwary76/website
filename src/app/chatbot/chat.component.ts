@@ -23,7 +23,6 @@ export class ChatComponent implements OnInit {
     $("#send").click(function (e) {
       e.preventDefault();
       var msg = $("input[name='message']").val();
-      console.log(msg);
       if (!(msg == "")) {
         var dm = new Date();
         $(".Messages_list").append(
@@ -37,8 +36,9 @@ export class ChatComponent implements OnInit {
         );
         $.ajax({
           type: "POST",
+          contentType: "application/json",
           url: "https://brl-app.herokuapp.com",
-          data: { response: msg },
+          data: JSON.stringify({ response: msg }),
         })
           .done(function (data) {
             var d = new Date();
