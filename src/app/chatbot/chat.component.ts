@@ -3,7 +3,7 @@ import * as $ from "jquery";
 import { empty } from "rxjs";
 
 @Component({
-  selector: "app-chat",
+  selector: "app-chatbot",
   templateUrl: "./chat.component.html",
   styleUrls: ["./chat.component.css"],
 })
