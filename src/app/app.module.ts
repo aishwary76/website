@@ -14,6 +14,7 @@ import { AboutComponent } from "./about/about.component";
 import { StrategyComponent } from "./strategy/strategy.component";
 import { PortfolioComponent } from "./portfolio/portfolio.component";
 import { TeamComponent } from "./team/team.component";
+import { ChatComponent } from "./chatbot/chat.component";
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { TeamComponent } from "./team/team.component";
     AboutComponent,
     StrategyComponent,
     PortfolioComponent,
+    ChatComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
