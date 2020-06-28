@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import * as $ from "jquery";
+import { empty } from "rxjs";
 
 @Component({
   selector: "app-chat",
@@ -17,6 +18,27 @@ export class ChatComponent implements OnInit {
     $(".chat_close_icon").click(function () {
       $(".Layout").hide();
       $(".chat_on").show(300);
+    });
+
+    $("#send").click(function (e) {
+      e.preventDefault();
+      var msg = $("input[name='message']").val();
+
+      if (!(msg == "")) {
+        $.ajax({
+          type: "POST",
+          url: "https://brl-app.herokuapp.com",
+          data: { response: msg },
+        })
+          .done(function (data) {
+            alert(data);
+          })
+          .fail(function (jqXHR, textStatus) {
+            alert(textStatus);
+          });
+      } else {
+        alert("empty");
+      }
     });
   }
   ngOnInit() {}

@@ -17,7 +17,7 @@
           >
             <h4 class="Messenger_prompt">How can we help you?</h4>
             <span class="chat_close_icon"
-              ><i class="fa fa-window-close" aria-hidden="true"></i
+              ><i class="fa fa-times" aria-hidden="true"></i
             ></span>
           </div>
           <div class="Messenger_content">
@@ -25,11 +25,12 @@
               <div class="Messages_list"></div>
             </div>
             <div class="Input Input-blank">
-              <textarea
+              <input
                 class="Input_field"
                 placeholder="Send a message..."
                 style="height: 23px;"
-              ></textarea>
+                name="message"
+              />
               <button class="Input_button Input_button-emoji">
                 <div class="Icon" style="width: 18px; height: 18px;">
                   <svg
@@ -77,7 +78,7 @@
                   </svg>
                 </div>
               </button>
-              <button class="Input_button Input_button-send">
+              <button class="Input_button Input_button-send" id="send">
                 <div class="Icon" style="width: 18px; height: 18px;">
                   <svg
                     width="57px"
