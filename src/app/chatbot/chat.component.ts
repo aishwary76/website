@@ -10,6 +10,13 @@ import { empty } from "rxjs";
 export class ChatComponent implements OnInit {
   constructor() {}
   ngAfterViewInit() {
+    $(".Input_field").keypress(function (e) {
+      if (e.which == 13) {
+        $("#send").click();
+        return false; //<---- Add this line
+      }
+    });
+
     $(".chat_on").click(function () {
       $(".Layout").toggle();
       $(".chat_on").hide(300);
