@@ -31,6 +31,7 @@ export class ChatComponent implements OnInit {
       e.preventDefault();
       var msg = $("input[name='message']").val();
       if (!(msg == "")) {
+        $("input[name='message']").val("");
         var dm = new Date();
         $(".Messages_list").append(
           "<div style='overflow: hidden; margin: 26px 0 26px;'><div style=' float: right; width: 46%;'><p style='background: #05728f none repeat scroll 0 0; border-radius: 3px; font-size: 14px; margin: 0; color: #fff; padding: 5px 10px 5px 12px; width: 100%;'>" +
