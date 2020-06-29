@@ -531,3 +531,8 @@
   .scroll-element_size {
   top: -14px;
 }
+
+.Messages::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
